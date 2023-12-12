@@ -362,9 +362,7 @@ pwd
 
 ![geolite_dbfile_path](assets/tutorial2/geolite_dbfile_path.jpg)
 
-**Hình 22:** Đ
-
-ường dẫn đến Bảng tra cứu Geolite "GeoLite2-City.mmdb"
+**Hình 22:** Đường dẫn đến Bảng tra cứu Geolite "GeoLite2-City.mmdb"
 
 Ghi chú lại tên thư mục mà GeoLite2-City.mmdb đang ở trên hệ thống của bạn. Theo hình ảnh trên, đường dẫn đầy đủ là: `/sandbox/tutorial-files/820/nifi/input/GeoFile/GeoLite2-City_20180605/GeoLite2-City.mmdb`
 
