@@ -39,9 +39,7 @@ Cuối cùng của loạt bài hướng dẫn này, bạn sẽ đạt được k
 - Thực hiện một Đoạn mã Python để Kiểm soát Sense HAT để Tạo Dữ liệu Thời Tiết
 - Tạo Bảng HBase để Lưu trữ Các Đọc Cảm Biến
 - Xây dựng một luồng MiNiFi để Vận chuyển Dữ liệu Cảm Biến từ Raspberry Pi đến NiFi từ xa đang chạy trên HDF trên máy tính của bạn
-- Xây dựng một luồng NiFi trên HDF Sandbox để tiền xử lý dữ liệu và làm phong phú dữ liệu cảm biến với thông tin vị tr
-
-í địa lý, và lưu trữ dữ liệu vào HBase trên HDP Sandbox
+- Xây dựng một luồng NiFi trên HDF Sandbox để tiền xử lý dữ liệu và làm phong phú dữ liệu cảm biến với thông tin vị trí địa lý, và lưu trữ dữ liệu vào HBase trên HDP Sandbox
 - Hiển thị Dữ liệu Cảm Biến với Trình thông dịch Phoenix của Apache Zeppelin
 
 ## Danh Sách Vật Liệu:
