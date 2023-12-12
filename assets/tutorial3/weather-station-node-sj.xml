@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<template encoding-version="1.1">
+  <description></description>
+  <groupId>1e9fc2fc-015d-1000-ffff-ffff8c5e0b77</groupId>
+  <name>weather-station-node-sj</name>
+  <snippet>
+    <connections>
+      <id>885c29e5-3232-3e23-0000-000000000000</id>
+      <parentGroupId>fe400948-57e6-3d76-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>c202e760-d687-3880-0000-000000000000</groupId>
+        <id>1e99e928-015d-1000-ffff-ffffb6732294</id>
+        <type>REMOTE_INPUT_PORT</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>fe400948-57e6-3d76-0000-000000000000</groupId>
+        <id>adfe316f-3851-36f4-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <processors>
+      <id>adfe316f-3851-36f4-0000-000000000000</id>
+      <parentGroupId>fe400948-57e6-3d76-0000-000000000000</parentGroupId>
+      <position>
+        <x>0.0</x>
+        <y>18.0</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0.3.0.0.0-452</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Command</key>
+            <value>
+              <name>Command</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Command Arguments</key>
+            <value>
+              <name>Command Arguments</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Batch Duration</key>
+            <value>
+              <name>Batch Duration</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Redirect Error Stream</key>
+            <value>
+              <name>Redirect Error Stream</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Argument Delimiter</key>
+            <value>
+              <name>Argument Delimiter</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Command</key>
+            <value>python</value>
+          </entry>
+          <entry>
+            <key>Command Arguments</key>
+            <value>/home/pi/WeatherStation.py</value>
+          </entry>
+          <entry>
+            <key>Batch Duration</key>
+            <value>5 sec</value>
+          </entry>
+          <entry>
+            <key>Redirect Error Stream</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Argument Delimiter</key>
+            <value> </value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>1 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ExecuteProcess</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ExecuteProcess</type>
+    </processors>
+    <remoteProcessGroups>
+      <id>c202e760-d687-3880-0000-000000000000</id>
+      <parentGroupId>fe400948-57e6-3d76-0000-000000000000</parentGroupId>
+      <position>
+        <x>652.0</x>
+        <y>0.0</y>
+      </position>
+      <communicationsTimeout>30 sec</communicationsTimeout>
+      <contents>
+        <inputPorts>
+          <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+          <connected>true</connected>
+          <exists>true</exists>
+          <id>1e99e928-015d-1000-ffff-ffffb6732294</id>
+          <name>From_MiNiFi</name>
+          <targetRunning>false</targetRunning>
+          <transmitting>false</transmitting>
+          <useCompression>false</useCompression>
+        </inputPorts>
+      </contents>
+      <proxyHost></proxyHost>
+      <proxyUser></proxyUser>
+      <targetUri>http://192.168.2.6:9090/nifi/</targetUri>
+      <targetUris>http://192.168.2.6:9090/nifi/</targetUris>
+      <transportProtocol>RAW</transportProtocol>
+      <yieldDuration>10 sec</yieldDuration>
+    </remoteProcessGroups>
+  </snippet>
+  <timestamp>07/07/2017 20:12:33 UTC</timestamp>
+</template>
