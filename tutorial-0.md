@@ -79,4 +79,4 @@ Trong bài hướng dẫn này, chúng ta sẽ làm việc với dữ liệu c�
 
 -->
 
-Loạt bài hướng dẫn được chia thành nhiều bài hướng dẫn cung cấp hướng dẫn từng bước, để bạn có thể hoàn thành các mục tiêu học tập và các nhiệm vụ liên quan đến nó. Bạn cũng được cung cấp một mẫu luồng dữ liệu cho mỗi bài hướng dẫn mà bạn có thể sử dụng để xác minh. Mỗi bài hướng dẫn xây dựng trên bài hướng dẫn trước đó.
+Loạt bài hướng dẫn được chia thành nhiều bài hướng dẫn cung cấp hướng dẫn từng bước, để bạn có thể hoàn thành các mục tiêu học tập và các nhiệm vụ liên quan đến nó. Bạn cũng được cung cấp một mẫu luồng dữ liệu cho mỗi bài hướng dẫn mà bạn có thể sử dụng để xác minh. Mỗi bài hướng dẫn xây dựng trên bài hướng dẫn trước đó. 
