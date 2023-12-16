@@ -1,4 +1,4 @@
-# Triển khai Trạm Thời Tiết IoT và Kiến Trúc Dữ Liệu Kết Nối
+# Triển khai Trạm Thời Tiết IoT và Kiến Trúc Dữ Liệu Kết Nối 
 
 ## Giới Thiệu
 
