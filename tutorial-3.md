@@ -1,5 +1,5 @@
 ---
-title: Thu thập Dữ liệu thời tiết từ Sense HAT thông qua CDA
+title: Thu thập Dữ liệu thời tiết từ Sense HAT thông qua CDA 
 ---
 
 # Thu thập Dữ liệu thời tiết từ Sense HAT thông qua CDA
