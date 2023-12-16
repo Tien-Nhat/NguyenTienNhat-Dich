@@ -1,5 +1,5 @@
 ---
-title: Hiển thị Dữ liệu Thời tiết bằng Trình Phiên dịch Phoenix của Zeppelin
+title: Hiển thị Dữ liệu Thời tiết bằng Trình Phiên dịch Phoenix của Zeppelin 
 ---
 
 # Hiển thị Dữ liệu Thời tiết bằng Trình Phiên dịch Phoenix của Zeppelin
